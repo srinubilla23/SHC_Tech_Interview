@@ -25,7 +25,7 @@ public class angel
 		WebDriver driver = null;
 		System.setProperty("webdriver.chrome.driver", "D:\\Jar Files\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.get("https://angel.co/");    
 
 		File file = new File("E:\\Download\\SCH\\ReadData.xlsx"); 
