@@ -29,7 +29,6 @@ public class angel
 		XSSFSheet sheet = wb.getSheet("Sheet1"); 
 		String location = sheet.getRow(0).getCell(0).getStringCellValue();
 		
-		
 		Thread.sleep(1000);
 		WebElement search=driver.findElement(By.name("search"));
 		search.sendKeys(location);
